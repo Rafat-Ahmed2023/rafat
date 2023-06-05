@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about me</title>
+    <link rel="stylesheet" href="css/about.css">
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+
+        <!--navigation bar-->
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo"> <img  class="amar" src="images/5845e5fbfb0b0755fa99d7e6 - Copy.png" alt=""> Alpha test</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html" class="active ">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html"> Contact</a>
+        </nav>
+    </header>
+    <br><br><br><br><br>
+
+
+     <!--about section design-->
+     <section class="about" id="about">
+        <div class="about-img">
+        <img src="images/5845e5fbfb0b0755fa99d7e6 - Copy.png" alt="">
+        </div>
+        <div class="about-content">
+        <h2 class="heading"> About <span>Me</span></h2>
+        <h3>Fronted developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab veritatis fugiat explicabo accusantium aliquam officia doloribus quibusdam. Eligendi placeat, sequi tempora sapiente laboriosam iste suscipit cum, blanditiis iusto a aut.</p>    
+        <a href="#" class="btn"> Read More</a>
+        </div>
+    </div>
+    </section>
+    
+
+    <!--scroll reveal-->
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+
+    <!--typed js-->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   
+   
+
+    <!--cusor animation-->
+      <div class="cursor"></div>
+      <div class="cursor2"></div>
+    
+      <script>
+        var cursor = document.querySelector(".cursor");
+        var cursor2 = document.querySelector(".cursor2");
+        document.addEventListener("mousemove",function(e){
+          cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+        });
+      </script>
+
+
+
+   
+   
+    <!--custom js-->
+    <script src="js/script.js"></script>
+
+
+
+
+
+</body>
+</html>
