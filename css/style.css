@@ -59,7 +59,6 @@ section {
 
 .amar{
     height: 80px;
-    width: 80px;
     animation: floatImage2 4s ease-in-out infinite;
     border-radius: 50%;
 }
